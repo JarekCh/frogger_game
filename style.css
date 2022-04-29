@@ -6,6 +6,7 @@
     width: 180px;
     display: flex;
     flex-wrap: wrap;
+    margin: 10px 0;
 }
 
 .grid div {
@@ -29,4 +30,8 @@
 .car-left,
 .car-right {
     background-color: lightgray;
+}
+
+.frog {
+    background-color: green;
 }
