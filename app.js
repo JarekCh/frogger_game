@@ -156,8 +156,8 @@ function lose() {
 function win() {
     if (squares[currentIndex].classList.contains('ending-block')) {
         resultDisplay.textContent = 'You Win.'
-        clearInterval(timerId)     
-        clearInterval(outcomeTimerID)   
+        clearInterval(timerId)
+        clearInterval(outcomeTimerID)    
         document.removeEventListener('keyup', moveFrog);
     }
 }
